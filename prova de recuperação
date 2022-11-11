@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+</head>
+<body>
+    <h2>Prova de Tecnologia</h2>
+     <div id="menu">
+         <ul>
+            <li> <a href="index.html" onclick="home();"> Home </a> </li>
+            <li> <a href="#" onclick="cadastrar();"> Cadastro </a> </li>
+            <li> <a href="#" onclick="tarefas();"> Tarefas </a></li>
+            <li> <a href="#"> Sobre </a></li>
+        </ul>
+     </div>
+        <div id="centro">
+             <div id="tarefas"> tarefa
+                  <input id="nome" type="text" placeholder="Nome"> <br>
+                  <input type="text" placeholder="Login"> <br>
+                  <input class="botao">
+                  <button class="botao"> Adicionar </button>
+                     <div>
+                        <div id="imagem">
+                        <img src="smile.jpg" width="200" height="200">    
+                        </div>
+                     </div>
+               </body>
+         </html>
+<script>
+//questão 01
+document.getElementsByTagName("h2")[0].style.backgroundColor = "blue";
+document.getElementsByTagName("h2")[0].fontFamily = "Arial";
+//questão 02
+document.getElementsByTagName("h2")[0].innerHTML = "prova de web avançado";
+//questão 03
+document.getElementsByclassName("botao").value;
+document.getElementsByTagName("a")[3].appendChild(botao);
+//questão 04
+var paragrafo = createElement("p");
+document.getElementsByTagName("p").innerHTML = "Leticia";
+//questão 05
+document.getElementsByClassName("botao")[1].addEventListener("click",
+function (){
+    document.getElementsByClassName("botao")[1].remove();
+});
+//questão 06
+function converterMaiuscula (){
+    document.getElementsByClassName("botao")[1].toUpperCase();
+}
+//questão 07
+document.getElementsByClassName("botao")[0].value;
+document.getElementsByTagName("input")[0].value;
+//questão 08
+if (nome.value == login.value) {
+    alert("nomes iguais")
+     if (nome.value != login.value){
+        alert("nomes diferentes");
+    }
+} 
+</script>
